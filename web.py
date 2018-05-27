@@ -1,6 +1,4 @@
 from flask import Flask
-from PIL import Image
-import os, random
 
 app = Flask(__name__)
 
@@ -9,6 +7,9 @@ def index():
   s = sched.scheduler(time.time, time.sleep)
 
 def quote_gen_exe(sc):
+  
+from PIL import Image
+import os, random
 
     folder="D:\\Jamie\\Python Projects\\Quote Gen\\Image quote gen\\Images"
 
