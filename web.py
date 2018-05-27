@@ -1,4 +1,7 @@
-rom flask import Flask
+from flask import Flask
+from PIL import Image
+import os, random
+
 app = Flask(__name__)
 
 @app.route('/')
